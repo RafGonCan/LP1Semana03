@@ -14,7 +14,8 @@ namespace ChangeString
             char letra = Console.ReadKey().KeyChar;
 
             //replace the old char with the new one
-
+            string newLetter = frase.Replace(letra, 'x');
+            Console.WriteLine("Será impresso: " + newLetter);
         }
     }
 }
