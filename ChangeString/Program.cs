@@ -12,6 +12,7 @@ namespace ChangeString
             //Ask for a letter
             Console.Write("Caráter: ");
             char letra = Console.ReadKey().KeyChar;
+            Console.WriteLine();
 
             //replace the old char with the new one
             string newLetter = frase.Replace(letra, 'x');
