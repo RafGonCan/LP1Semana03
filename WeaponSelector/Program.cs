@@ -59,7 +59,14 @@ namespace WeaponSelector
         /// <returns>Wether the enemy was killed or not.</returns>
         private static bool WeaponsKillEnemy(EnemyType enemy, Weapons weapons)
         {
-
+            if ((weapons & Weapons.SilverBullet) == Weapons.SilverBullet)
+            {
+                
+            }
+            else
+            {
+                Console.WriteLine($"{enemy} survives");
+            }
         }
 
         /// <summary>
